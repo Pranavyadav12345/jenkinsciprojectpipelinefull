@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Update these values
-        DOCKER_IMAGE_NAME = "your-dockerhub-username/cicd-demo-app"
+        DOCKER_IMAGE_NAME = "pranavyadav858/cicd-demo-app"
         DOCKER_HUB_CREDS  = "docker-hub-credentials-id"
         K8S_CREDS         = "k8s-config-credentials-id"
         IMAGE_TAG         = "${env.BUILD_NUMBER}"
